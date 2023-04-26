@@ -1,0 +1,18 @@
+<header>
+  <h1>Open a GitHub repo with the StackBlitz SDK</h1>
+  <nav>
+    <label>
+      Repo:
+      <select onchange="demo.setRepo(this)">
+        <option value="angular">Angular RealWorld</option>
+        <option value="vite">Vite (Vanilla JS)</option>
+      </select>
+    </label>
+    <button onclick="demo.embedProject()">Embed project</button>
+    <button onclick="demo.openProject()">Open in new window</button>
+  </nav>
+</header>
+
+<div id="embed">
+  <p>Embed will go here</p>
+</div>
